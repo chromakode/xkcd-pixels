@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <style>
+    html, body { margin: 0; overflow: hidden }
+  </style>
+</head>
+<body>
+  <div id="comic">
+    <img src="http://imgs.xkcd.com/comics/pixels.png" title="It&#39;s turtles all the way down." alt="Pixels" />
+  </div>
+  <script src="zoom.js"></script>
+  <script>
+    turtles = new TurtlesDown(document.getElementById('comic'))
+    turtles.start()
+  </script>
+</body>
+</html>
